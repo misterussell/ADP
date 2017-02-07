@@ -1,11 +1,10 @@
 import 'babel-polyfill';
 
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDom from 'react-dom';
+import router from './router';
 
-import Root from './containers/Root';
-
-render(
-  <Root />,
+ReactDom.render(
+  router,
   document.getElementById('root')
 );
