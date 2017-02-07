@@ -1,0 +1,54 @@
+// Color Set One - Bright
+$color-primary-0: #FFFF0E;	// Main Primary color */
+$color-primary-1: #FFFF6A;
+$color-primary-2: #FFFF3D;
+$color-primary-3: #FFFF00;
+$color-primary-4: #C8C800;
+
+$color-secondary-1-0: #FF8A0E;	// Main Secondary color (1) */
+$color-secondary-1-1: #FFB66A;
+$color-secondary-1-2: #FFA03D;
+$color-secondary-1-3: #FF8300;
+$color-secondary-1-4: #C86700;
+
+$color-secondary-2-0: #0BCA9F;	// Main Secondary color (2) */
+$color-secondary-2-1: #5BDBBE;
+$color-secondary-2-2: #32D1AD;
+$color-secondary-2-3: #00AD86;
+$color-secondary-2-4: #008164;
+
+$color-complement-0: #8C16CE;	// Main Complement color */
+$color-complement-1: #B263DD;
+$color-complement-2: #9D3BD4;
+$color-complement-3: #7506B2;
+$color-complement-4: #580586;
+
+// Color Set Two - Warm/Vibrant
+// $color-primary-0: #FF6A0E;	// Main Primary color */
+// $color-primary-1: #FFA36A;
+// $color-primary-2: #FF873C;
+// $color-primary-3: #FF6200;
+// $color-primary-4: #C84D00;
+//
+// $color-secondary-1-0: #FFAC0E;	// Main Secondary color (1) */
+// $color-secondary-1-1: #FFCC6A;
+// $color-secondary-1-2: #FFBC3C;
+// $color-secondary-1-3: #FFA700;
+// $color-secondary-1-4: #C88300;
+//
+// $color-secondary-2-0: #F30D43;	// Main Secondary color (2) */
+// $color-secondary-2-1: #F76688;
+// $color-secondary-2-2: #F43A65;
+// $color-secondary-2-3: #EC0037;
+// $color-secondary-2-4: #B8002B;
+
+// Fonts
+@mixin font-header($font-size) {
+  font-family: 'Poppins', sans-serif;
+  font-size: $font-size;
+}
+
+@mixin font-text($font-size) {
+  font-family: 'Catamaran', sans-serif;
+  font-size: $font-size;
+}
