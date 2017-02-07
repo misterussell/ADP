@@ -31,6 +31,7 @@ export default React.createClass({
             Associations: { this.props.pathologist.associations }
           </li>
         </ul>
+        <img className="bio-pic" src={ this.props.pathologist.imgLarge } />
       </li>
     );
   }

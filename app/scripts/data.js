@@ -1,5 +1,7 @@
 const pathologists = [
   {
+    imgLarge: '../assets/images/bio_pics/dr-campbell.jpg',
+    imgSmall: '',
     name: 'Dr. Alfred W. Campbell',
     certifications: 'Anatomic and Clinical Pathology',
     degree: 'Texas A&M University, Biology',
@@ -10,6 +12,8 @@ const pathologists = [
     associations: 'Past President of Virginia Society for Pathology, Leadership roles in American Medical Association and College of American Pathologists, Founding Partner of American Diagnostic Pathology'
   },
   {
+    imgLarge: '../assets/images/bio_pics/dr-caldwell.jpg',
+    imgSmall: '',
     name: 'Dr. John A. Caldwell',
     certifications: 'Anatomic Pathology and Clinical Pathology, Dermatopathology',
     degree: 'Austin College, Sherman, Texas',
@@ -20,6 +24,8 @@ const pathologists = [
     associations: null
   },
   {
+    imgLarge: '../assets/images/bio_pics/dr-lapham.jpg',
+    imgSmall: '',
     name: 'Dr. Rosanna L. Lapham',
     certifications: 'Anatomic and Clinical Pathology, Fellow of the Royal College of Pathologist',
     degree: 'Southwestern University, Georgetown, Texas',
@@ -30,6 +36,8 @@ const pathologists = [
     associations: 'College of American Pathologists, Royal College of Pathologists'
   },
   {
+    imgLarge: '../assets/images/bio_pics/dr-tarik.jpg',
+    imgSmall: '../assets/images/archive/dr-tarik.jpg',
     name: 'Dr. Tarek M. Bishara',
     certifications: 'Anatomic and Clinical Pathology',
     degree: 'Francis Marion University',
@@ -40,6 +48,8 @@ const pathologists = [
     associations: 'College of American Pathologists, International Society of Urologic Pathology, Founding Associate Partner American Diagnostic Pathology'
   },
   {
+    imgLarge: '../assets/images/bio_pics/dr-block.jpg',
+    imgSmall: '',
     name: 'Dr. Jared G. Block',
     certifications: 'Anatomic and Clinical Pathology, Hematopathology',
     degree: 'Emory University in Atlanta, Georgia',
@@ -50,6 +60,8 @@ const pathologists = [
     associations: 'College of American Pathologists, Founding Associate Partner American Diagnostic Pathology'
   },
   {
+    imgLarge: '../assets/images/bio_pics/dr-burks.jpg',
+    imgSmall: '',
     name: 'Dr. R. Tucker Burks',
     certifications: 'Anatomic and Clinical Pathology',
     degree: 'Davidson College, Davidson NC',
@@ -60,6 +72,8 @@ const pathologists = [
     associations: 'International Society of Gynecologic Pathologists and International Society of Urologic Pathology'
   },
   {
+    imgLarge: '../assets/images/bio_pics/dr-smith.jpg',
+    imgSmall: '',
     name: 'Dr. E. Travis Smith',
     certifications: 'Anatomic and Clinical Pathology, Hematopathology',
     degree: 'University of North Carolina Chapel Hill',
