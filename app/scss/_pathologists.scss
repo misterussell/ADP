@@ -1,0 +1,25 @@
+.pathologists {
+  clear: both;
+}
+
+.name, .details {
+  float: left;
+  width: 30%;
+  display: block;
+}
+
+.details {
+  text-align: left;
+}
+
+.bio-pic {
+  float: right;
+  width: 30%;
+  display: inline;
+}
+
+.single-pathologist {
+  clear: both;
+  width: 80%;
+  margin: 0 auto;
+}

@@ -7,7 +7,7 @@ export default React.createClass({
     return (
       <footer className="default-footer">
         <div className="contact-footer">
-          <h4>Contact Us</h4>
+          <h4 className="contact-title">Contact Us</h4>
           <div className="address">
             319 Hidden Creek Circle
             Spartanburg, South Carolina
@@ -16,7 +16,6 @@ export default React.createClass({
           </div>
         </div>
         <div className="footer-links">
-          <h4>Contact Us</h4>
           <ul className="quick-links">
             <li><Link to='/about'>About</Link></li>
             <li><Link to='/our-pathologists'>Our Pathologists</Link></li>

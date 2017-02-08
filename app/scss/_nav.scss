@@ -1,0 +1,19 @@
+.main-nav {
+  background: white;
+
+  .logo {
+    float: left;
+    padding: 0.5rem;
+  }
+
+  .nav-links {
+    float: right;
+  }
+
+  .nav-link {
+    display: inline-block;
+    padding: 0.75rem 0.5rem;
+
+    color: black;
+  }
+}

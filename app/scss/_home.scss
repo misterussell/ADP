@@ -1,0 +1,13 @@
+.hero-image {
+  float: left;
+}
+
+.hero-text {
+  clear: both;
+  box-sizing: border-box;
+  padding: .5rem 0;
+  margin: 0;
+
+  background: $color-secondary-2-1;
+  color: black;
+}

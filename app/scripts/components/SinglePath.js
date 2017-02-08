@@ -4,7 +4,7 @@ import React from 'react';
 export default React.createClass({
   render() {
     return (
-      <li>
+      <li className="single-pathologist">
         <h3 className="name">
           { this.props.pathologist.name }
         </h3>
