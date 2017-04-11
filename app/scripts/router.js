@@ -7,6 +7,7 @@ import App from './containers/App';
 import Home from './components/Home';
 import About from './components/About';
 import Paths from './components/Paths';
+import Contact from './components/contact';
 
 const router = (
   <Router history={ browserHistory } >
@@ -14,6 +15,7 @@ const router = (
     <IndexRoute component={ Home } />
       <Route path='/about' component={ About } />
       <Route path='/our-pathologists' component={ Paths } />
+      <Route path='/contact-us' component={ Contact } />
     </Route>
   </Router>
 );

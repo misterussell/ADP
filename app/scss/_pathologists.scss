@@ -1,5 +1,6 @@
 .pathologists {
   background: white;
+  float: left;
   @include clearfix;
 }
 
@@ -13,10 +14,15 @@
   // background: $color-secondary-2-2;
 
   // color scheme 2
-  background: $color-secondary-2-1;
+  background: $color-secondary-1-1;
+
+  //textured image
+  // background-image: url('../assets/images/ricepaper.png');
+  // @include background-opacity($color-secondary-1-1, 40%);
 
   &:nth-child(2n) {
-    background: $color-primary-1;
+    // background: $color-primary-2;
+    background: $color-complement-2;
   }
 
 }
@@ -46,8 +52,8 @@
 }
 
 .bio-pic {
-  float: right;
-  width: 30%;
+  width: 45%;
+  margin-bottom: 1rem;
   display: inline;
 }
 
@@ -73,7 +79,7 @@
 
   .details {
     display: block;
-    font-size: 1rem;
+    font-size: 0.75rem;
     text-align: left;
   }
 

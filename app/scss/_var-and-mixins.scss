@@ -24,23 +24,29 @@
 // $color-complement-4: #580586;
 
 // Color Set Two - Cool
-$color-primary-0: #3B4486;	// Main Primary color */
-$color-primary-1: #898FC0;
-$color-primary-2: #5B63A0;
-$color-primary-3: #252E70;
-$color-primary-4: #101853;
+$color-primary-0: #2F8C66;	// Main Primary color */
+$color-primary-1: #7CC3A6;
+$color-primary-2: #4DA480;
+$color-primary-3: #1A7751;
+$color-primary-4: #075D3B;
 
-$color-secondary-1-0: #533784;	// Main Secondary color (1) */
-$color-secondary-1-1: #9A85BF;
-$color-secondary-1-2: #71579F;
-$color-secondary-1-3: #3E226F;
-$color-secondary-1-4: #260D52;
+$color-secondary-1-0: #325F85;	// Main Secondary color (1) */
+$color-secondary-1-1: #7C9FBC;
+$color-secondary-1-2: #4E789B;
+$color-secondary-1-3: #1E4B71;
+$color-secondary-1-4: #0C3658;
 
-$color-secondary-2-0: #2F627B;	// Main Secondary color (2) */
-$color-secondary-2-1: #7CA2B5;
-$color-secondary-2-2: #4D7D93;
-$color-secondary-2-3: #1C4F67;
-$color-secondary-2-4: #09364D;
+$color-secondary-2-0: #72B63D;	// Main Secondary color (2) */
+$color-secondary-2-1: #BAEA95;
+$color-secondary-2-2: #95D564;
+$color-secondary-2-3: #569B21;
+$color-secondary-2-4: #3A7A09;
+
+$color-complement-0: #CE6D45;	// Main Complement color */
+$color-complement-1: #FFBEA2;
+$color-complement-2: #F09771;
+$color-complement-3: #AF4F26;
+$color-complement-4: #89300A;
 
 
 // Fonts
@@ -52,4 +58,9 @@ $color-secondary-2-4: #09364D;
 @mixin font-text($font-size) {
   font-family: 'Catamaran', sans-serif;
   font-size: $font-size;
+}
+
+@mixin background-opacity($colour, $opacity) {
+  background: $colour $opacity;
+  // opacity: $opacity;
 }

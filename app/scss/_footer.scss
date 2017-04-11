@@ -1,22 +1,61 @@
 .default-footer {
-  width: 80%;
+  background: $color-primary-1;
+  float: left;
   margin: 0 auto;
+  padding: 0.75rem 0;
+  width: 100%;
+  @include clearfix;
+
+  font-size: 0.75rem;
 }
 
 .contact-footer {
-  display: inline-block;
-  width: 20%;
-  padding-right: 30%;
+  margin: 0 auto;
+  padding: 0.25rem;
+  width: 80%;
+
+  .line-break {
+    width: 100%;
+    display: block;
+  }
 }
 
 .contact-title {
-  margin: 0.25rem;
-
+  float: left;
+  margin: 0 auto;
+  width: 100%
 }
 
 .footer-links {
-  display: inline-block;
-  width: 20%;
-  text-align: left;
-  padding-left: 30%;
+  float: left;
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+
+  .default-footer {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact-footer {
+    display: inline-block;
+    width: 20%;
+    padding-right: 30%;
+  }
+
+  .contact-title {
+    margin: 0.25rem;
+
+  }
+
+  .footer-links {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding-left: 30%;
+  }
+
 }
