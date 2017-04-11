@@ -8,30 +8,30 @@ export default React.createClass({
         <h3 className="name">
           { this.props.pathologist.name }
         </h3>
+        <img className="bio-pic" src={ this.props.pathologist.imgLarge } />
         <ul className="details">
           <li>
-            Board Certified: { this.props.pathologist.certifications }
+            <span className="bold">Board Certified:</span> { this.props.pathologist.certifications }
           </li>
           <li>
-            Degree: { this.props.pathologist.degree }
+            <span className="bold">Degree:</span> { this.props.pathologist.degree }
           </li>
           <li>
-            Medical School: { this.props.pathologist.school}
+            <span className="bold">Medical School:</span> { this.props.pathologist.school}
           </li>
           <li>
-            Pathology Training: { this.props.pathologist.training }
+            <span className="bold">Pathology Training:</span> { this.props.pathologist.training }
           </li>
           <li>
-            Experience: { this.props.pathologist.experience }
+            <span className="bold">Experience:</span> { this.props.pathologist.experience }
           </li>
           <li>
-            Roles and Attributes: { this.props.pathologist.rolesAndAttr }
+            <span className="bold">Roles and Attributes:</span> { this.props.pathologist.rolesAndAttr }
           </li>
           <li>
-            Associations: { this.props.pathologist.associations }
+            <span className="bold">Associations:</span> { this.props.pathologist.associations }
           </li>
         </ul>
-        <img className="bio-pic" src={ this.props.pathologist.imgLarge } />
       </li>
     );
   }

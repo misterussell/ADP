@@ -1,15 +1,48 @@
 .pathologists {
-  clear: both;
+  background: white;
+  @include clearfix;
 }
 
-.name, .details {
-  float: left;
-  width: 30%;
+.single-pathologist {
+  width: 100%;
+  padding: 0.75rem;
+  @include clearfix;
+  box-sizing: border-box;
+
+  // colour scheme 1
+  // background: $color-secondary-2-2;
+
+  // color scheme 2
+  background: $color-secondary-2-1;
+
+  &:nth-child(2n) {
+    background: $color-primary-1;
+  }
+
+}
+
+.name {
   display: block;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.details {
+  display: block;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .details {
   text-align: left;
+
+  li {
+    padding: 0.25rem;
+  }
 }
 
 .bio-pic {
@@ -18,8 +51,36 @@
   display: inline;
 }
 
-.single-pathologist {
-  clear: both;
-  width: 80%;
-  margin: 0 auto;
+@media (min-width: 500px) {
+
+  .pathologists {
+    @include clearfix;
+  }
+
+  .single-pathologist {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.75rem;
+    @include clearfix;
+    box-sizing: border-box;
+  }
+
+  .name {
+    display: block;
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  .details {
+    display: block;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .bio-pic {
+    float: right;
+    width: 30%;
+    display: inline;
+  }
+
 }
