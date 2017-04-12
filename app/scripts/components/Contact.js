@@ -6,8 +6,10 @@ export default React.createClass({
       <form
         action="https://formspree.io/max@misterussell.com"
         method="POST">
-        <input type="text" name="name" />
-        <input type="email" name="_replyto" />
+        <label className="hide" htmlFor="name">Name</label>
+        <input type="text" name="name" placeholder="Name"/>
+        <label className="hide" htmlFor="_replyto">Reply-to address</label>
+        <input type="email" name="_replyto" placeholder="Reply-to"/>
         <input type="submit" value="Send" />
       </form>
     );
