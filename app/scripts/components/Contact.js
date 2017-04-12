@@ -10,6 +10,6 @@ export default React.createClass({
         <input type="email" name="_replyto" />
         <input type="submit" value="Send" />
       </form>
-    )
+    );
   }
-})
+});
