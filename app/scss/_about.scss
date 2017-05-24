@@ -17,12 +17,20 @@
 @media (min-width: 500px) {
 
   .about {
-    width: 80%;
+    box-sizing: border-box;
+    width: 100%;
     margin: 0 auto;
+    padding: 5%;
     clear: both;
-
     font-size: 1rem;
     background: $color-secondary-1-1;
   }
+
+  .about-text {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 0;
+  }
+
 
 }

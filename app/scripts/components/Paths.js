@@ -14,7 +14,7 @@ export default React.createClass({
     });
     return (
       <ul className="pathologists">
-        <h1>Our Pathologists</h1>
+        <h1 className="section-title">Our Pathologists</h1>
         { pathList }
       </ul>
     );

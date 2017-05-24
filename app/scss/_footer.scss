@@ -36,14 +36,12 @@
 @media (min-width: 500px) {
 
   .default-footer {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
   .contact-footer {
     display: inline-block;
-    width: 20%;
-    padding-right: 30%;
   }
 
   .contact-title {
@@ -53,9 +51,6 @@
 
   .footer-links {
     display: inline-block;
-    width: 20%;
-    text-align: left;
-    padding-left: 30%;
   }
 
 }
